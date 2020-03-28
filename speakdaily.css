@@ -1,6 +1,6 @@
 ul.first{overflow:hidden;
 list-style-type:none;
-background-color:black;
+background-color:(0,0,0,0.8);
 padding:0;
 margin-left: -40px;
 position:fixed;
@@ -248,3 +248,6 @@ margin-right:20px;
 animation-name:home;
 animation-duration:4s;
 animation-timing-function: ease;}
+@media @media screen and (max-width: 800px) {
+  .col1 {
+    width: 100%; }}
