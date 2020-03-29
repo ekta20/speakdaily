@@ -113,7 +113,7 @@ margin-bottom:30px;}
 .button {
   border-radius:30px;
   width:200px;
-  background:linear-gradient(to bottom right,rgb(22,0,70),rgb(90,234,255)),lightskyblue;
+  background:linear-gradient(to bottom right,rgb(22,0,66),rgb(41,187,168)),lightskyblue;
   background-size:220px 220px,0px 220px;
   background-position:left,left;
   background-repeat:no-repeat;
