@@ -31,7 +31,7 @@ li.second a:active{color:teal;}
 #speech{opacity:0.4;
 
   z-index:-1;
-  position: fixed;
+  position: absolute;
   filter: drop-shadow(8px 8px 10px grey);
   object-fit:cover;
 width:1342px;
