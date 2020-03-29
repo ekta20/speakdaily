@@ -35,7 +35,7 @@ li.second a:active{color:teal;}
   filter: drop-shadow(8px 8px 10px grey);
   object-fit:cover;
 width:1342px;
-height:700px;
+height:650px;
 }
 
 #home{position:absolute;
@@ -113,7 +113,7 @@ animation-timing-function: ease;}
   margin-left:220px;
 margin-top:-10px;
 height:720px;}
-body{background-color: black;}
+body{background-color: rgba(0,0,0,0.8);}
 h1.two{color:white;
 text-align: center;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
