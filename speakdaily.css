@@ -1,6 +1,6 @@
 ul.first{overflow:hidden;
 list-style-type:none;
-background-color:rgba(0,0,0,0.8);
+background-color:rgba(0,0,0,0.9);
 padding:0;
 margin-left: -40px;
 position:fixed;
@@ -31,10 +31,11 @@ li.second a:active{color:teal;}
 #speech{opacity:0.8;
   z-index:-1;
   position: absolute;
-
+background-color:black;
   object-fit:cover;
 width:1342px;
 height:670px;
+  margin-top:0px;
 }
 
 #home{position:absolute;
