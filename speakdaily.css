@@ -155,7 +155,7 @@ color:black;}
 }
 .down1{border:2px solid lightskyblue;
   border-radius:30px;
-  width:200px;
+  width:300px;
 
     background:linear-gradient(to bottom right,rgb(22,0,66),rgb(41,187,168)),lightskyblue;
   background-size:220px 220px,0px 220px;
@@ -236,15 +236,15 @@ width:50%;
 transform:translateX(2%);
 }
 .mission{color:white;
-text-align: center;
+text-align: justify;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 20px;
 font-family: 'Open Sans', sans-serif;
-font-size: 20px;
-
-padding:80px,30px,80px,30px;
-padding-top:10px;
+font-size: 19px;
+padding-top:20px;
 padding-bottom:10px;
+padding-left: 30px;
+padding-right: 30px;
 background-color: rgba(32,143,146);
 border:2px solid white;
 margin-top:0px;
