@@ -232,23 +232,14 @@ border:2px solid white;
 animation-name:home;
 animation-duration:4s;
 animation-timing-function: ease;}
-h1.three{color:white;
+h1.three{color:black;
 text-align: center;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-font-family: 'Poppins', sans-serif;
-width:400px;
-margin-top:80px;
-padding:80px,30px,80px,30px;
-padding-top:10px;
-padding-bottom:10px;
-background-color: rgba(21,89,125);
-border:2px solid white;
 font-size: 35px;
-transform:translate(115%,-30%);
-animation-name:home;
-animation-duration:4s;
-animation-timing-function: ease;}
+margin-top:80px;
+font-family: 'Poppins', sans-serif;
+border-bottom:2px solid black ;
+width:200px;
+transform: translate(285%,-40%);}
 
 #last{height:370px;
 width:auto;
