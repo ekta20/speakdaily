@@ -48,10 +48,10 @@ position:relative;
 margin:40px;
 transform: translate(75%,70%);
 }
-body{background-color: rgba(0,0,0,0.8);}
+body{background-color: white;}
 .subhead{text-align: center;
 
-color:white;
+color:black;
 width:650px;
 font-family: 'Source Sans Pro', sans-serif;
 
@@ -65,23 +65,26 @@ transform:translateX(110%);
 position:relative;
 margin:40px;
 transform: translate(47%,60%);
-border-bottom: 2px solid white;
+border-bottom: 2px solid black;
 
 }
 form{  font-family: 'Roboto', sans-serif;
 margin-top:80px;
 margin-left:50px;
 }
-label{color:white;
+label{color:black;
 font-size:25px;
 
 }
 input{width:550px;
 height:50px;
 margin-top:10px;
-font-size:20px;
+font-size:30px;
 font-family: 'Source Sans Pro', sans-serif;
 margin-bottom: 10px;
+background-color: darkcyan;
+color:white;
+padding-left:10px;
 }
 .colm{float:left;
 width:50%;
