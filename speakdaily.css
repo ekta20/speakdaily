@@ -33,7 +33,7 @@ li.second a:active{color:teal;}
   position: absolute;
 margin-top:100px;
   object-fit:cover;
-width:1342px;
+width:auto;
 height:500px;
 border-bottom: 5px solid black;
 }
