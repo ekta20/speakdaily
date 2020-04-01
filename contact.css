@@ -5,7 +5,7 @@ padding:0;
 margin-left: -25px;
 position:fixed;
 
-margin-top:-35px;
+margin-top:-45px;
 width:1382px;
 z-index:1;
 }
@@ -48,10 +48,10 @@ position:relative;
 margin:40px;
 transform: translate(75%,70%);
 }
-body{background-color: rgba(0,0,0,0.8);}
+body{background-color: white;}
 .subhead{text-align: center;
 
-color:white;
+color:black;
 width:650px;
 font-family: 'Source Sans Pro', sans-serif;
 
@@ -65,23 +65,27 @@ transform:translateX(110%);
 position:relative;
 margin:40px;
 transform: translate(47%,60%);
-border-bottom: 2px solid white;
+border-bottom: 2px solid black;
 
 }
 form{  font-family: 'Roboto', sans-serif;
 margin-top:80px;
 margin-left:400px;
 }
-label{color:white;
+label{color:black;
 font-size:25px;
 
 }
-input{width:550px;
+input{width:560px;
 height:50px;
 margin-top:10px;
-font-size:20px;
+font-size:30px;
 font-family: 'Source Sans Pro', sans-serif;
 margin-bottom: 10px;
+background-color: darkcyan;
+color:white;
+padding-left:10px;
+
 }
 .colm{
 width:50%;
@@ -123,10 +127,11 @@ font-family: 'Roboto', sans-serif;
 @keyframes example{from{opacity:1;} to{opacity:0;}}
 textarea{width:550px;
   font-size:20px;
+  background-color: darkcyan;
   font-family: 'Source Sans Pro', sans-serif;
 transform:translateY(30%);
 height:50px;}
-p.mes{color:white;
+p.mes{color:black;
   margin-top:60px;
   transform:translateY(25%);
 font-size:25px;
