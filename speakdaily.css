@@ -109,6 +109,19 @@ margin-top:200px;
 height:720px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   filter: drop-shadow(8px 8px 10px grey);}
+h1.two{color:black;
+text-align: center;
+font-size: 35px;
+margin-top:80px;
+font-family: 'Poppins', sans-serif;
+border-bottom:2px solid black ;
+width:500px;
+transform: translate(83%,-40%);}
+.img1{width:auto;
+height:380px;
+margin-left:25px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .column1{float:left;
 width:33.33%;
 }
