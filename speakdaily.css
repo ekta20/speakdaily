@@ -31,10 +31,10 @@ li.second a:active{color:teal;}
 #speech{opacity:0.8;
   z-index:-1;
   position: absolute;
-margin-top:70px;
+margin-top:10px;
   object-fit:cover;
 width:auto;
-height:650px;
+height:720px;
 border-bottom: 5px solid black;
 }
 
