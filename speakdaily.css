@@ -16,7 +16,6 @@ li.second a {padding:20px;
   font-family: 'Roboto', sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
-text-align: right;
 display:block;
 
 cursor:pointer;
@@ -33,14 +32,14 @@ li.second a:active{color:teal;}
   position: absolute;
 margin-left: -10px;
   object-fit:cover;
-width:auto;
-height:900px;
+width:100%;
+height:auto;
 border-bottom: 5px solid black;
 }
 
 #home{position:absolute;
-top:50%;
-left:50%;
+  top:50%;
+  left:50%;
 transform:translate(-48%,25%);
 font-family: 'Source Sans Pro', sans-serif;
 color:white;
@@ -48,7 +47,7 @@ width:900px;
 
 padding:20px,40px;
 
-font-size: 40px;
+font-size: 3vw;
 text-align: center;
 animation-name:home;
 animation-duration:4s;
@@ -57,20 +56,20 @@ animation-timing-function: ease;}
 
 div.button {border:2px solid white;
   border-radius:30px;
-  width:200px;
-text-align:center;
+
+
     background:linear-gradient(to bottom right,rgb(0,121,129),rgb(90,234,255)),lightskyblue;
   background-size:220px 220px,0px 220px;
   background-position:left,left;
   background-repeat:no-repeat;
-font-size:20px;
+font-size:1.4vw;
 
 color:white;
 margin:auto;
 padding:30px;
 padding-top:10px;
 padding-bottom:15px;
- width:146px;
+ width:12%;
  animation-name:home;
  animation-duration:4s;
  animation-timing-function: ease;
@@ -97,29 +96,32 @@ transform: translateY(2.5%);}
 h1.one{
   color:black;
   text-align: center;
-  font-size: 35px;
-  margin-top:80px;
+  font-size: 2.8vw;
+
   font-family: 'Poppins', sans-serif;
   border-bottom:2px solid black ;
-  width:400px;
-  transform: translate(120%,350%);}
-.oneimg{width:auto;
-  margin-left:220px;
-margin-top:200px;
-height:720px;
+  width:40%;
+margin-top: 65%;
+margin-left:35%;}
+.oneimg{width:75%;
+  margin-left:15%;
+margin-top:1%;
+height:auto;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   filter: drop-shadow(8px 8px 10px grey);}
+body{background-color: black;}
 h1.two{color:black;
 text-align: center;
-font-size: 35px;
+font-size: 3vw;
 margin-top:80px;
 font-family: 'Poppins', sans-serif;
 border-bottom:2px solid black ;
-width:500px;
-transform: translate(83%,-40%);}
-.img1{width:auto;
-height:380px;
-margin-left:25px;
+width:40%;
+margin-left:30%;}
+.img1{width:90%;
+height:auto;
+margin-left:10%;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .column1{float:left;
@@ -131,8 +133,10 @@ width:33.33%;
   display: table;
 }
 .colh{text-align:center;
-color:black;}
+color:black;
+font-size: 2.5vw;}
 .row2{margin-top:100px;}
+.c22{margin-top:60px;}
 .row2::after {
   content: "";
   clear: both;
@@ -144,7 +148,7 @@ div.down1{border:2px solid lightskyblue;
   background-size:250px 250px,0px 250px;
   background-position:left,left;
   background-repeat:no-repeat;
-font-size:20px;
+font-size:1.4vw;
 color:white;
 margin:auto;
 padding:30px;
@@ -156,7 +160,7 @@ padding-bottom:15px;
   position: relative;
 font-family: 'Roboto', sans-serif;
 transform:translate(-90%,80%);
-width:190px;}
+width:13.5%;}
 div.down1:hover{color:black;
   background-size:0px 250px,250px 250px;
   top:50%;
@@ -173,20 +177,21 @@ border:2px solid lightskyblue;
   background-size:250px 250px,0px 250px;
   background-position:left,left;
   background-repeat:no-repeat;
-font-size:20px;
+font-size:1.4vw;
 color:white;
 margin:auto;
 padding:30px;
 padding-top:10px;
 padding-bottom:15px;
- width:250px;
+ width:12%;
  animation-name:home;
  animation-duration:4s;
  animation-timing-function: ease;
   position: relative;
 font-family: 'Roboto', sans-serif;
-transform:translate(100%,-0%);
-width:170px;}
+
+width:12%;
+margin-left:60%;}
 div.down2:hover{color:black;
   background-size:0px 250px,250px 250px;
   top:50%;
@@ -198,11 +203,11 @@ div.down2:hover{color:black;
 text-align: justify;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 20px;
-font-size: 18px;
+font-size: 1.5vw;
 font-family: 'Open Sans', sans-serif;
-width:325px;
-height:100px;
-margin-left:20px;
+width:80%;
+height:15%;
+margin-left:9%;
 padding:80px,30px,80px,30px;
 padding-top:20px;
 padding-bottom:20px;
@@ -217,15 +222,16 @@ animation-duration:4s;
 animation-timing-function: ease;}
 h1.three{color:black;
 text-align: center;
-font-size: 35px;
+font-size: 2.8vw;
 margin-top:80px;
 font-family: 'Poppins', sans-serif;
 border-bottom:2px solid black ;
-width:200px;
-transform: translate(285%,-40%);}
+width:22%;
+transform: translate(175%,-40%);
+}
 
-#last{height:370px;
-width:auto;
+#last{height:auto;
+width:90%;
 margin-left:30px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -242,7 +248,7 @@ text-align: justify;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 20px;
 font-family: 'Open Sans', sans-serif;
-font-size: 19px;
+font-size: 1.4vw;
 
 
 padding-top:20px;
@@ -252,12 +258,82 @@ padding-right: 30px;
 background-color: darkcyan;
 border:2px solid white;
 margin-top:0px;
-height:345px;
+height:55%;
 margin-right:20px;
 animation-name:home;
 animation-duration:4s;
 animation-timing-function: ease;}
-@media screen and (max-width:800px){
+@media screen and (max-width:850px){
+
+li.second {width:100%;
+text-align: center;
+
+
+}
+li.second a{width: 100%;
+margin-right: -30px;
+width:100%;}
+ul.first{position: relative;
+width:120%;
+}
+.column1, .colb, .colb2{width:100%;}
+.colb2{margin-top:20px;}
+#home{transform:translate(-48%,105%);}
+.des{height:10%;
+font-size: 2.5vw;
+margin-left: 5.5%;
+width:70%;
+padding-top:2%;}
+h1.one, h1.two, h1.three{font-size: 5vw;}
+h1.one{width:40%;}
+.colh{font-size: 4vw;}
+.mission{height:30%;
+width:70%;
+margin-left: 3%;}
+#last{margin-left: 3%;}
+.img1{margin-left: 5.5%;}
+.down1{margin-left:40%;
+  font-size: 20vw;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:550px){
+div.up{font-size: 4vw;
+transform: translateY(300%);
+height:5%;
+font-size: 4.5vw;
+padding-bottom: 6%;
+padding-top: 2%;
+width:38%;
+}
+.row2{margin-top: 2%;}
+.c22{margin-top:2%;}
+#bg{margin-top:-15%;
+  margin-left:23%;}
+div.down1{margin-left:40%;
+  font-size: 4vw;
+  text-align: center;
+
+}
+div.down2{font-size: 4vw;
+text-align: center;
+height:12%;
+margin-top:-5%;
+padding-top: 5%;}
+.mission{height:80%;
+  width:70%;
+  margin-left: 3%;
+font-size: 3vw;}
+.des{height:5%;
+font-size: 2.5vw;
+margin-bottom: 6%;}
+.colh{font-size: 4.5vw;}
+h1.one, h1.two, h1.three{font-size: 6vw;}
 
 }
 body{background-color:white;}
