@@ -32,7 +32,7 @@ li.second a:active{color:teal;}
 h1.head{text-align: center;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 color:white;
-width:500px;
+width:38%;
 font-family: 'Source Sans Pro', sans-serif;
 padding:80px,30px,80px,30px;
 padding-top:10px;
@@ -52,7 +52,7 @@ body{background-color: white;}
 .subhead{text-align: center;
 
 color:black;
-width:650px;
+width:50%;
 font-family: 'Source Sans Pro', sans-serif;
 
 padding-top:10px;
@@ -60,7 +60,7 @@ padding-bottom:10px;
 padding-left: 5px;
 padding-right: 5px;
 
-font-size: 30px;
+font-size: 2.4vw;
 transform:translateX(110%);
 position:relative;
 margin:40px;
@@ -76,7 +76,7 @@ label{color:black;
 font-size:25px;
 
 }
-input{width:560px;
+input{width:115%;
 height:50px;
 margin-top:10px;
 font-size:30px;
@@ -125,7 +125,7 @@ font-family: 'Roboto', sans-serif;
  .button:hover span{animation-name:example;animation-duration:0.8s;
  animation-iteration-count:infinite;}
 @keyframes example{from{opacity:1;} to{opacity:0;}}
-textarea{width:550px;
+textarea{width:57.5%;
   font-size:20px;
   background-color: darkcyan;
   font-family: 'Source Sans Pro', sans-serif;
@@ -136,3 +136,30 @@ p.mes{color:black;
   transform:translateY(25%);
 font-size:25px;
 margin-bottom:5px;}
+@media screen and (max-width:850px){
+
+li.second {width:100%;
+text-align: center;
+
+
+}
+li.second a{width: 100%;
+margin-right: -30px;
+width:100%;}
+ul.first{position: relative;
+width:120%;
+margin-top:0%;
+}
+h1.head{margin-top:-10%;
+margin-left:3%;}
+textarea{margin-left:2%;
+width:87%;}
+
+input{width:180%;}
+.subhead{font-size:6vw;
+margin-left:-28%;
+width:80%;
+text-align: center;}
+form{margin-left:2%;}
+.button{margin-left:-45%;}
+}
