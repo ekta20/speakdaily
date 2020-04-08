@@ -32,7 +32,7 @@ li.second a:active{color:teal;}
 h1.head{text-align: center;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 color:white;
-width:500px;
+width:30%;
 font-family: 'Source Sans Pro', sans-serif;
 padding:80px,30px,80px,30px;
 padding-top:10px;
@@ -46,13 +46,14 @@ animation-duration:4s;
 animation-timing-function: ease;
 position:relative;
 margin:40px;
-transform: translate(75%,70%);
+margin-left: 35%;
+transform: translateY(70%);
 }
 body{background-color: white;}
 .subhead{text-align: center;
 
 color:black;
-width:650px;
+width:40%;
 font-family: 'Source Sans Pro', sans-serif;
 
 padding-top:10px;
@@ -61,10 +62,11 @@ padding-left: 5px;
 padding-right: 5px;
 
 font-size: 30px;
-transform:translateX(110%);
 position:relative;
 margin:40px;
-transform: translate(47%,60%);
+margin-left:30%;
+transform: translateY(60%);
+
 border-bottom: 2px solid black;
 
 }
@@ -76,7 +78,7 @@ label{color:black;
 font-size:25px;
 
 }
-input{width:550px;
+input{width:83%;
 height:50px;
 margin-top:10px;
 font-size:30px;
@@ -108,7 +110,8 @@ padding-bottom:15px;
  animation-name:home;
  animation-duration:4s;
  animation-timing-function: ease;
-transform: translate(340%,70%);
+transform: translateY(70%);
+margin-left:40%;
 
 font-family: 'Roboto', sans-serif;
 }
@@ -123,3 +126,24 @@ font-family: 'Roboto', sans-serif;
  .button:hover span{animation-name:example;animation-duration:0.8s;
  animation-iteration-count:infinite;}
 @keyframes example{from{opacity:1;} to{opacity:0;}}
+@media screen and (max-width:850px){
+
+li.second {width:100%;
+text-align: center;
+
+
+}
+li.second a{width: 100%;
+margin-right: -30px;
+width:100%;}
+ul.first{position: relative;
+width:120%;
+margin-top:0%;
+}
+h1.head{width:50%;
+
+margin-left:25%;}
+.colm{width:120%;}
+.button{margin-left:25%;}
+form{margin-left:0%;}
+}
