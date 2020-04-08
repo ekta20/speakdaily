@@ -134,7 +134,8 @@ width:33.33%;
 }
 .colh{text-align:center;
 color:black;
-font-size: 2.1vw;}
+font-size: 2.1vw;
+font-family: 'Source Sans Pro', sans-serif;}
 .row2{margin-top:100px;}
 .c22{margin-top:60px;}
 .row2::after {
