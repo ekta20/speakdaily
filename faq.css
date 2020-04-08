@@ -32,7 +32,7 @@ li.second a:active{color:teal;}
 h1.head{text-align: center;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 color:white;
-width:500px;
+width:25%;
 font-family: 'Source Sans Pro', sans-serif;
 padding:80px,30px,80px,30px;
 padding-top:10px;
@@ -47,6 +47,7 @@ animation-timing-function: ease;
 position:relative;
 margin:40px;
 transform: translate(75%,70%);
+margin-left: 17%;
 }
 body{background-color: white;}
 h3{background-color: rgb(15,145,148);
@@ -59,15 +60,33 @@ padding-left: 50px;
 padding-top: 15px;
 padding-bottom: 15px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-width:1200px;}
+width:90%;}
 h3:hover{background-color: teal;
 }
 h3::before{content:'\25B8 ';}
 .questions{margin-top: 100px;}
-.dd{margin-left:100px;
-  margin-right: 105px;
+.dd{margin-left:10%;
+  margin-right: 10%;
   font-family: 'Source Sans Pro', sans-serif;
   font-size:20px;
   margin-top:-8px;
   text-align:justify;
+}
+@media screen and (max-width:850px){
+
+li.second {width:100%;
+text-align: center;
+
+
+}
+li.second a{width: 100%;
+margin-right: -30px;
+width:100%;}
+ul.first{position: relative;
+width:120%;
+}
+  h3{font-size:5vw;
+  margin-left: -10%;}
+
+  ul.first{margin-top:0%;}
 }
